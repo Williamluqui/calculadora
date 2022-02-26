@@ -8,13 +8,15 @@
     <title>Calculadora</title>
 </head>
 <body>
+    
     <header>
-        <h1>% Calculadora &#247;</h1>
+        <h1> %  Calculadora &#247;</h1>
     </header>
     <main>
+        
         <div class="container">
           <div class="conteudo">
-            	<div class="resultado">
+            	<div class="display" id="display"  >
                         <!-- JS -->
                 </div>
              <div class="botoes">
@@ -22,41 +24,43 @@
               
 
 
-                <button>AC</button>
-                <button>+/-</button>
-                <button>%</button>
-                <button>&#247;</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                 <button>0</button>  <!--AUMENTAR TAMANHO  -->
-                <button>,</button>
-                <button>=</button>
+                <button id="LimparDisplay">AC</button>
+                <button id="limparCalculo">C</button>
+                <button id="operadorPorc">%</button>
+                <button id="operadorDiv">&#247;</button>
+                <button id="tecla7">7</button>
+                <button id="tecla8">8</button>
+                <button id="tecla9">9</button>
+                <button id="operadorMult">x</button>
+                <button id="tecla4">4</button>
+                <button id="tecla5">5</button>
+                <button id="tecla6">6</button>
+                <button id="operadorSub">-</button>
+                <button id="tecla1">1</button>
+                <button id="tecla2">2</button>
+                <button id="tecla3">3</button>
+                <button id="operadorAdi">+</button>
+                 <button id="tecla0">0</button>  <!--AUMENTAR TAMANHO  -->
+                <button id="comma">,</button>
+                <button id="equal" >=</button>
+                <button id="backspace"> <img src="imagem/delete_icon-icons.com_72346.svg" width="14"> </button>
                 </div>
-
+                
           </div>
+          
         </div>
-
+        
 
 
     </main>
     <footer>
-        rodape
+        &copy; Calculadora Standard
 
     </footer>
 
 
 
 
-
+ <script src="script.js"></script>
 </body>
 </html>

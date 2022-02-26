@@ -19,6 +19,8 @@
 ## Implementações futuras:
 
 + Layout 
++ funcionalidades dos botões
+
 
 
 
